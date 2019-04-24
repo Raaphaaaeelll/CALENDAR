@@ -1,0 +1,93 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int month, days, year;
+	cout << "Enter number of month (1-12):";
+	cin >> month;
+	cout << "Enter number of days (1-31):";
+	cin >> days;
+	cout << "Enter a year ():";
+	cin >> year;
+	
+	switch(month)
+	{
+	case 1:
+		if (days <= 31)
+		cout << "January  " << days << ',' << ' ' << year;
+		else if (days >= 31)
+		cout << "Invalid date!";
+		break;
+	case 2:
+		if (days <= 28)
+		cout << "February  " << days << ',' << ' ' << year;
+		else if (days >= 28)
+		cout << "Invalid date!";
+		break;
+	case 3:
+		if (days <= 31)
+		cout << "March  " << days << ',' << ' ' << year;
+		else if (days >= 31)
+		cout << "Invalid date!";
+		break;
+	case 4:
+		if (days <= 30)
+		cout << "April  " << days << ',' << ' ' << year;
+		else if (days >= 30)
+		cout << "Invalid date!";
+		break;
+	case 5:
+		if (days <= 31)
+		cout << "May  " << days << ',' << ' ' << year;
+		else if (days >= 31)
+		cout << "Invalid date!";
+		break;
+	case 6:
+		if (days <= 30)
+		cout << "June  " << days << ',' << ' ' << year;
+		else if (days >= 30)
+		cout << "Invalid date!";
+		break;
+	case 7:
+		if (days <= 31)
+		cout << "July  " << days << ',' << ' ' << year;
+		else if (days >= 31)
+		cout << "Invalid date!";
+		break;
+	case 8:
+		if (days <= 31)
+		cout << "August  " << days << ',' << ' ' << year;
+		else if (days >= 31)
+		cout << "Invalid date!";
+		break;
+	case 9:
+		if (days <= 30)
+		cout << "September  " << days << ',' << ' ' << year;
+		else if (days >= 30)
+		cout << "Invalid date!";
+		break;
+	case 10:
+		if (days <= 31)
+		cout << "October  " << days << ',' << ' ' << year;
+		else if (days >= 31)
+		cout << "Invalid date!";
+		break;
+	case 11:
+		if (days <= 30)
+		cout << "November  " << days << ',' << ' ' << year;
+		else if (days >= 30)
+		cout << "Invalid date!";
+		break;
+	case 12:
+	if (days <= 31)
+		cout << "December  " << days << ',' << ' ' << year;
+		else if (days >= 31)
+		cout << "Invalid date!";
+		break;
+	default:
+		cout << "Invalid date!";
+	}
+
+	return 0;
+}
